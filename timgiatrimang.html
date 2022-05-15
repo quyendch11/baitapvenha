@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let a = prompt("nhập vào một giá trị ");
+  let mang = [1,5,8,9,10,30,75,35];
+  let b = 1;
+  let i;
+for( i=0; i < mang.length; i++) {
+    if ( a == mang[i] ){
+        b = 0;
+        break;
+    }
+}
+if(b == 0){
+    alert("giá trị có trong mảng " + "ở vị trí " + i);
+}
+else {
+    alert ("giá trị không có trong mảng sorry");
+}
+</script>
+</body>
+</html>
